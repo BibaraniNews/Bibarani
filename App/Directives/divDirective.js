@@ -5,7 +5,7 @@
 		restrict:"EA",
 		scope:{
 			newsData:"=",
-			imageAvail:"="
+			imageAvail:"@"
 		},
 		templateUrl:"App/Directives/dynamic-div.html",
 		controller:["$scope",function ($scope) {
